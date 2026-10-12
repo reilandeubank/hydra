@@ -10,6 +10,8 @@ npm-debug.*
 *.orig.*
 web-build/
 .env*
+!.envrc
+.direnv/
 
 # macOS
 .DS_Store
@@ -19,3 +21,4 @@ web-build/
 
 /ios
 /android
+/modules/*/android/build/
